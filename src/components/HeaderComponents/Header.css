@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap");
+
+.Header {
+  color: #5c15b8;
+  height: 9vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0vh 2vw;
+  width: 100%;
+}
+
+.ActivityToolBar {
+  border: 5px;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+}
+
+.ActivityToolBar input{
+  font-size: calc(2px + 0.5vw);
+}
+
+.Activity,
+.Guide {
+  color: #5c15b8;
+}
+
+.makeStyles-search-5{
+  width: 30% !important;
+}
+
+.makeStyles-inputInput-60 {
+  height: 100%;
+}
+
+.ProfileMenu {
+  display: flex;
+  height: 50%;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 1vw;
+  margin-right: 2vw;
+}
+
+
+
+.card {
+  background-color: #f3f6f7;
+  border-radius: 10px;
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.card:hover {
+  background-color: white;
+}
+
+.PurpleText {
+  color: #5c15b8;
+  padding: 1vh 1vw;
+  display: flex;
+  align-items: center;
+  font-size: calc(2px + 0.7vw);
+  font-weight: 700;
+}
+
+.MuiAvatar-fallback{
+  height: 1.5em !important;
+  width: 1.5em !important;
+}
+
+@media only screen and (max-width:600px){
+  .MuiAvatar-root{
+    height: 0.4em !important;
+    width: 0.4em !important;
+  }
+  .MuiButton-root{
+    min-width: 30px !important;
+  }
+  .makeStyles-search-13{
+    width: 10vw !important;
+  }
+  .makeStyles-searchIcon-14{
+    transform: scale(0.5);
+    padding: 0px;
+  }
+  .MuiSvgIcon-root{
+    height: 0.4em !important;
+    width: 0.4em !important;
+  }
+  .ProfileMenu .MuiButton-root{
+    min-width: 0px !important;
+  }
+  .PurpleText{
+    padding: 1vh 0px;
+  }
+}
